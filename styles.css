@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation:wght@400;700&family=Montserrat+Alternates&family=Montserrat:wght@400;700&family=Poppins:wght@300;400;700&family=Righteous&family=Tilt+Neon:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#app-title {
+  margin-bottom: 0.5rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 30%;
+  margin: 2rem auto;
+}
+
+.fa-xmark {
+  transform: scale(1.1);
+}
+
+form input {
+  padding: 1rem;
+  width: 100%;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.fa-pen-to-square,
+.fa-xmark,
+.add-btn,
+.clear-btn {
+  cursor: pointer;
+}
+
+.fa-xmark {
+  transform: scale(1.7);
+}
+
+.fa-pen-to-square {
+  transform: scale(1.5);
+}
+
+.add-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  align-self: start;
+  margin-bottom: 0.5rem;
+}
+
+.clear-btn {
+  padding: 0.8rem 1.4rem;
+  font-size: 1.3rem;
+  width: 100%;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 0.3rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  gap: 2rem;
+}
+
+.add-btn,
+.clear-btn {
+  background-color: rgba(0, 0, 0, 0.869);
+  color: white;
+}
+
+.icons {
+  display: flex;
+  width: 30px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
