@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation:wght@400;700&family=Montserrat+Alternates&family=Montserrat:wght@400;700&family=Poppins:wght@300;400;700&family=Righteous&family=Tilt+Neon:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?familyå=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation:wght@400;700&family=Montserrat+Alternates&family=Montserrat:wght@400;700&family=Poppins:wght@300;400;700&family=Righteous&family=Tilt+Neon:wght@400;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Tilt Neon", sans-serif;
+  font-family: "Poppins", "Tilt Neon", sans-serif;
 }
 
 body {
@@ -21,12 +21,12 @@ body {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  width: 30%;
+  width: 50%;
   margin: 2rem auto;
 }
 
-.fa-xmark {
-  transform: scale(1.1);
+form {
+  width: 100%;
 }
 
 form input {
@@ -52,11 +52,11 @@ li {
 }
 
 .fa-xmark {
-  transform: scale(1.7);
+  transform: scale(1.5);
 }
 
 .fa-pen-to-square {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 .add-btn {
@@ -72,6 +72,17 @@ li {
   width: 100%;
 }
 
+input.filter-item-input {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: black;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+input.filter-item-input::placeholder {
+  font-size: 1.3rem;
+}
+
 .list-item {
   display: flex;
   align-items: center;
@@ -80,7 +91,7 @@ li {
   width: 100%;
   padding: 1rem;
   margin-bottom: 0.3rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 700;
   gap: 2rem;
 }
@@ -91,15 +102,16 @@ li {
   color: white;
 }
 
-.icons {
+div.icons {
   display: flex;
   width: 30px;
   height: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
   background-color: white;
   border: none;
   cursor: pointer;
+  padding-right: 1.7rem;
 }
