@@ -53,10 +53,12 @@ li {
 
 .fa-xmark {
   transform: scale(1.5);
+  color: red;
 }
 
 .fa-pen-to-square {
   transform: scale(1.2);
+  color: green;
 }
 
 .add-btn {
@@ -99,6 +101,11 @@ input.filter-item-input::placeholder {
 .add-btn,
 .clear-btn {
   background-color: rgba(0, 0, 0, 0.869);
+  color: white;
+}
+
+.edit-mode {
+  background-color: green;
   color: white;
 }
 
