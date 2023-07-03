@@ -41,6 +41,7 @@ function displayItems() {
 }
 
 //creating a new item and passing the new item to the addToDOM fucntion and also the local storage function
+
 function createNewItem(e) {
   e.preventDefault();
 
